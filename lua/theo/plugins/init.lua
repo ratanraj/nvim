@@ -9,4 +9,5 @@ return {
   {'sschleemilch/slimline.nvim'},
   {'lewis6991/gitsigns.nvim'},
   {'nvimdev/lspsaga.nvim'},
+  {'ThePrimeagen/harpoon', dependencies = {'nvim-lua/plenary.nvim'}},
 }
