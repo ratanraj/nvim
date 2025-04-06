@@ -2,6 +2,7 @@ local builtin = require('telescope.builtin')
 
 require('telescope').setup{
   defaults = {
+    file_ignore_patterns = { "vendor/" },
     mappings = {
       i = {
         ["<C-h>"] = "which_key"

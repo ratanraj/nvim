@@ -6,4 +6,7 @@ return {
   {'ellisonleao/gruvbox.nvim'},
   {'nyoom-engineering/oxocarbon.nvim'},
   {'saghen/blink.cmp', dependencies = {'rafamadriz/friendly-snippets'}, version = '*', lazy = true},
+  {'sschleemilch/slimline.nvim'},
+  {'lewis6991/gitsigns.nvim'},
+  {'nvimdev/lspsaga.nvim'},
 }
