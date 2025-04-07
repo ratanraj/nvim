@@ -10,4 +10,7 @@ return {
   {'lewis6991/gitsigns.nvim'},
   {'nvimdev/lspsaga.nvim'},
   {'ThePrimeagen/harpoon', dependencies = {'nvim-lua/plenary.nvim'}},
+  {'crusj/structrue-go.nvim', branch = 'main'},
+  {'tris203/precognition.nvim'},
+  {'sindrets/winshift.nvim'},
 }
