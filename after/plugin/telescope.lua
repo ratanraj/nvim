@@ -25,3 +25,7 @@ end)
 
 
 vim.keymap.set('n', '<leader>fl', builtin.lsp_references, { desc = 'Telescope LSP References' })
+
+--vim.keymap.set('n', '<leader>fs', function() 
+--	require('telescope.builtin').lsp_workspace_symbols({query = "func"})
+--end)

@@ -5,6 +5,7 @@ return {
   {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate"},
   {'ellisonleao/gruvbox.nvim'},
   {'nyoom-engineering/oxocarbon.nvim'},
+  {'tanvirtin/monokai.nvim'},
   {'saghen/blink.cmp', dependencies = {'rafamadriz/friendly-snippets'}, version = '*', lazy = true},
   {'sschleemilch/slimline.nvim'},
   {'lewis6991/gitsigns.nvim'},
@@ -13,4 +14,12 @@ return {
   {'crusj/structrue-go.nvim', branch = 'main'},
   {'tris203/precognition.nvim'},
   {'sindrets/winshift.nvim'},
+  {'windwp/nvim-autopairs', event = 'InsertEnter', config = true},
+  {'windwp/nvim-ts-autotag', event = 'InsertEnter'},
+  {'rmagatti/auto-session'},
+  {'tadaa/vimade'},
+  {'folke/which-key.nvim'},
+  {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
+  {'folke/todo-comments.nvim', dependencies = {'nvim-lua/plenary.nvim'}},
+  {'samharju/yeet.nvim', dependencies = {'stevearc/dressing.nvim'}}
 }

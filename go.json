@@ -1,0 +1,9 @@
+{
+	"service": {
+		"prefix": "ser",
+		"body": [
+			"func ${1:name}Service(ctx context.Context) (${2:rettype}, error) {",
+			"}"
+		]
+	}
+}

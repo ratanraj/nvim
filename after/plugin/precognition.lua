@@ -3,5 +3,5 @@ require('precognition').setup({
 })
 
 
-vim.keymap.set('n', '<C-p>', function() require('precognition').peek() end, {desc = 'Peek precognition hints'})
+vim.keymap.set('n', '<C-p>', function() require('precognition').toggle() end, {desc = 'Peek precognition hints'})
 

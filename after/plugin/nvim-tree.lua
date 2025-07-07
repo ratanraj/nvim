@@ -16,3 +16,4 @@ require("nvim-tree").setup({
 local nvimtree = require('nvim-tree.api')
 
 vim.keymap.set("n", "<C-n>", nvimtree.tree.toggle, { noremap = tree, silent = true })
+vim.keymap.set('n', '<leader>nn', nvimtree.tree.focus, {noremap = tree, silent = true})

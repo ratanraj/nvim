@@ -14,3 +14,5 @@ vim.keymap.set('n', '<leader>kp', '<cmd>Lspsaga peek_type_definition<CR>', { nor
 vim.keymap.set('n', '<leader>kg', '<cmd>Lspsaga goto_definition<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>kt', '<cmd>Lspsaga term_toggle<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>ko', '<cmd>Lspsaga outline<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>kk', '<cmd>Lspsaga hover_doc<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>ke', '<cmd>Lspsaga show_workspace_diagnostics ++normal<CR>', { noremap = true, silent = true })
