@@ -21,5 +21,6 @@ return {
   {'folke/which-key.nvim'},
   {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
   {'folke/todo-comments.nvim', dependencies = {'nvim-lua/plenary.nvim'}},
-  {'samharju/yeet.nvim', dependencies = {'stevearc/dressing.nvim'}}
+  {'samharju/yeet.nvim', dependencies = {'stevearc/dressing.nvim'}},
+  {'alexander-born/bazel.nvim', dependencies = {'nvim-treesitter/nvim-treesitter', 'nvim-lua/plenary.nvim'} }
 }
