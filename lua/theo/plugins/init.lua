@@ -1,4 +1,5 @@
 return {
+  {'github/copilot.vim'},
   {'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = {'nvim-lua/plenary.nvim'}},
   {'nvim-tree/nvim-tree.lua'},
   {'neovim/nvim-lspconfig'},
@@ -22,5 +23,6 @@ return {
   {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
   {'folke/todo-comments.nvim', dependencies = {'nvim-lua/plenary.nvim'}},
   {'samharju/yeet.nvim', dependencies = {'stevearc/dressing.nvim'}},
-  {'bazelbuild/vim-bazel', dependencies = {'google/vim-maktaba'}}
+  {'bazelbuild/vim-bazel', dependencies = {'google/vim-maktaba'}},
+  {'hedyhli/outline.nvim'}
 }
